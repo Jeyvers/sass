@@ -11,14 +11,21 @@ body {
 }
 
 .main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   width: 80%;
   margin: 0 auto;
 }
 
 .main .main-paragraph {
   font-weight: 700;
-  -webkit-transition: all 1s ease;
-  transition: all 1s ease;
 }
 
 .main .main-paragraph:hover {
