@@ -1,16 +1,7 @@
 // Never modify css file
 // 1. CSS Variables
 @import './resets';
-    $primary-color: #272727;
-    $accent-color: #ff652f;
-    $text-color: #fff;
-    // Mapping
-    $font-weights: (
-        "regular": 400,
-        "medium": 500,
-        "bold": 700,
-    );
-
+@import './variables';
 
 body {
     background: $primary-color;
