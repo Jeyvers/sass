@@ -1,3 +1,10 @@
 What is Sass?
 Css extension language. It gives you css superpowers. 
 
+Benefits
+- Functions
+- Partials
+- Mixins
+- Variables
+- Nesting
+- Extending
