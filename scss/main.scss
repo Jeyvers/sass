@@ -28,7 +28,11 @@
 }
 
 // Media Query mixin
-
+@mixin mobile {
+    @media (max-width: $mobile) {
+        @content;
+    }
+}
 
 body {
     background: $primary-color;
@@ -47,6 +51,10 @@ body {
     &:hover {
         color: $accent-color;
     }
+    }
+
+    @include mobile{
+        @include flexCenter(column)
     }
 }
 
