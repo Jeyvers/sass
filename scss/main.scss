@@ -46,11 +46,19 @@ body {
     margin: 0 auto;
     // ampersand equals parent element
     // interpolation
-    #{&}-paragraph {
+    #{&}-paragraph1 {
     font-weight: weight(bold);
     &:hover {
         color: $accent-color;
     }
+    }
+
+    #{&}-paragraph2 {
+        // @extend extends all the styles of paragraph one. This enables you to avoid style repitition, as you can easily add/modify styles.
+        @extend .main-paragraph1;
+        &:hover {
+            color: pink;
+        }
     }
 
     @include mobile{
