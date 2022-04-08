@@ -35,4 +35,9 @@ body {
 .main .main-paragraph:hover {
   color: #ff652f;
 }
+
+.light {
+  background: white;
+  color: black;
+}
 /*# sourceMappingURL=main.css.map */

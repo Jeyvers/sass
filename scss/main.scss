@@ -16,6 +16,20 @@
     flex-direction: $direction;
 }
 
+// Functions should compute return values. Mixins should define styles
+
+// Dark and light theme mixin
+@mixin theme($light-theme: true) {
+    @if $light-theme {
+        // background: effect(color, percentage of effect)
+        background: lighten($primary-color, 100%);
+        color: darken($text-color, 100%);
+    }
+}
+
+// Media Query mixin
+
+
 body {
     background: $primary-color;
     color: $text-color;
@@ -34,4 +48,9 @@ body {
         color: $accent-color;
     }
     }
+}
+
+.light {
+    // Sass doesn't compile the theme if light-theme is false
+    @include theme($light-theme: true)
 }
