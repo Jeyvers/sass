@@ -42,7 +42,8 @@ body {
 // Nesting
 .main {
   @include flexCenter(row);
-    width: 80%;
+    // Operations - no need for the calc operator when the units of the operation are compatible(operation of the same types)
+    width: 80% - 40%;
     margin: 0 auto;
     // ampersand equals parent element
     // interpolation
