@@ -1,0 +1,3 @@
+What is Sass?
+Css extension language. It gives you css superpowers. 
+

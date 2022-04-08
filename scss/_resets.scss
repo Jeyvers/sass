@@ -1,0 +1,6 @@
+// the naming convention for partial sass files begins with a leading underscore. It lets the compiler know that the file is a partial, and a css file shouldn't be generated.
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}

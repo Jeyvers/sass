@@ -1,0 +1,27 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #272727;
+  color: #fff;
+}
+
+.main {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.main .main-paragraph {
+  font-weight: 700;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+.main .main-paragraph:hover {
+  color: #ff652f;
+}
+/*# sourceMappingURL=main.css.map */
